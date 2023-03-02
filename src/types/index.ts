@@ -1,12 +1,12 @@
 export interface DataProps {
-  title: string,
-  attributes: AttrProps[],
+  title: string;
+  attributes: AttrProps[];
 }
 
 export interface AttrProps {
-  name: string,
-  value: number,
-  unit: string,
+  name: string;
+  value: number;
+  unit: string;
 }
 
 export interface ChartProps {
@@ -18,6 +18,6 @@ export interface ChartProps {
 }
 
 export type Values = {
-  username: string,
-  password: string,
+  username: string;
+  password: string;
 }

@@ -4,7 +4,7 @@ import CustomTextField from '../../components/form/input';
 import { Values } from '../../types';
 import { FormContainer } from './styles';
 
-const Login = () => {
+const Login: React.FC = () => {
 
   const [values, setValues] = useState<Values>({
     username : "",
